@@ -8,7 +8,6 @@ import plotly.express as px
 
 st.set_page_config(
     page_title="Analiza sentymentu w czasie rzeczywistym",
-    page_icon="✅",
     layout="wide",
 )
 
