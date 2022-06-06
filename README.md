@@ -1,0 +1,2 @@
+# RealTimeSentiment
+Projekt zaliczeniowy
