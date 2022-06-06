@@ -20,10 +20,6 @@ headers = {
 url = 'https://api.typeform.com/forms/VeYMzJ2A/responses'
 
 def get_data(url):
-    API_SECRET = 'tfp_Ezxv5YZQvF7Fz2HXYnJLprBA8q5oK3szrryvo6STZnxo_iWTJGCvwkHx9'
-    headers = {
-        'Authorization': f'Bearer {API_SECRET}',
-    }
     response = requests.get(url, headers=headers)
     response = response.json()
     return response
